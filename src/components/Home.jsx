@@ -20,7 +20,7 @@ const Home = () => {
           <ReactTyped loop
             strings={['I am a Frontend Developer']}
             typeSpeed={40}
-            backSpeed={10000000000000}
+            backSpeed={100}
           />
         </h2>
         <h2 className='text-2xl sm:text-4xl font-bold text-[#8892b0]'>
@@ -28,7 +28,7 @@ const Home = () => {
           <ReactTyped loop
             strings={['React | Angular | Next js | Javascript | Typescript']}
             typeSpeed={40}
-            backSpeed={10000000000000}
+            backSpeed={100}
           />
         </h2>
         </Fade>
