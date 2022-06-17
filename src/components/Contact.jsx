@@ -1,48 +1,42 @@
 import React from 'react';
+import { Fade } from 'react-reveal';
 
-const About = () => {
+const Contact = () => {
   return (
-    <div name='about' className='w-full h-screen bg-[#0a192f] text-gray-300'>
+    <div name='contact' className='w-full h-screen bg-[#0a192f] text-gray-300'>
       <div className='flex flex-col justify-center items-center w-full h-full'>
         <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
           <div className='sm:text-right pb-8 pl-4'>
             <p className='text-4xl font-bold inline border-b-4 border-pink-600'>
-              About
+              Contact
             </p>
           </div>
           <div></div>
+        </div>
+        <div className='max-w-[1000px] w-full grid sm:grid-cols-2 px-4'>
+         <Fade bottom duration='1000'>
+         <div className="max-w-sm bg-white rounded-lg border 
+          border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+            <div className="flex flex-col items-center pb-10 px-4 pt-4">
+              <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">Send mail At</h5>
+              <span className="text-gray-700 dark:text-gray-700 pt-6">zubair.baig212@gmail.com</span>
+            </div>
           </div>
-          <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-            <div className='sm:text-right text-4xl font-bold'>
-              <p>Hi. I'm Zubair, nice to meet you. Please take a look around.</p>
+
+          <div className="max-w-sm mt-2 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+            <div className="flex flex-col items-center pb-10 px-4 pt-4">
+              <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">Call me at </h5>
+              <span className="text-sm text-gray-700 dark:text-gray-700">+92 (313) 6634677</span>
+              <span className='text-pink-600 pt-2'>Send Message</span>
             </div>
-            <div>
-              <p>I am passionate about building excellent software that improves
-              the lives of those around me. I specialize in creating software
-              for clients ranging from individuals and small-businesses all the
-              way to large enterprise corporations. What would you do if you had
-              a software expert available at your fingertips?</p>  
-            </div>
-          </div> 
-          <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-            <div className='sm:text-right text-4xl font-bold'>
-              <p>Education</p>
-            </div>
-            <div className='pt-3'>
-              <p>Bachelors In Computer Engineering</p>  
-            </div>
-          </div> 
-          <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-            <div className='sm:text-right text-4xl font-bold'>
-              <p>Address</p>
-            </div>
-            <div className='pt-3'>
-              <p>Karachi, Pakistan</p>  
-            </div>
-          </div> 
+          </div>
+
+         </Fade>
+        </div>
+
       </div>
     </div>
   );
 };
 
-export default About;
+export default Contact;

@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { Fade } from 'react-reveal'
+
 import {
   FaBars,
   FaTimes,
@@ -16,9 +18,12 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
       <div className='text-pink-600 text-4xl sm:text-7xl font-bold'>
-        ZB
+      <Fade left>
+      ZB
+      </Fade>
       </div>
-      <div className='flex '>
+      <div className='grid grid-cols-1'>
+        <Fade top>
         <div className="flex px-2">
           <FaUser className="mt-1 mr-3" />
           <span>+92 313 6634677</span>
@@ -27,6 +32,7 @@ const Navbar = () => {
           <HiMail className="mt-1 mr-3" />
           <span>zubair.baig212@gmail.com</span>
         </div>
+        </Fade>
       </div>
       {/* menu */}
       <ul className='hidden md:flex'>
