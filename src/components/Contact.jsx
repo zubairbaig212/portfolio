@@ -3,7 +3,7 @@ import { Fade } from 'react-reveal';
 
 const Contact = () => {
   return (
-    <div name='contact' className='w-full h-screen bg-[#0a192f] text-gray-300'>
+    <div name='contact' className='w-full h-screen bg-[#0a192f] text-gray-300 -mt-1 sm:mt-0'>
       <div className='flex flex-col justify-center items-center w-full h-full'>
         <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
           <div className='sm:text-right pb-8 pl-4'>
