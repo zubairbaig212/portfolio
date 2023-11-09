@@ -41,7 +41,7 @@ const About = () => {
             </div>
             <div className='pt-0 md:pt-3'>
             <Fade right duration='1500'>
-              <p>Bachelors In Computer Engineering</p>  
+              <p>Masters in Computer Science</p>  
               </Fade>
 
             </div>
@@ -56,7 +56,7 @@ const About = () => {
             </div>
             <div className='pt-0 md:pt-3'>
             <Fade right duration='2000'>
-              <p>Karachi, Pakistan</p>  
+              <p>Berlin, Germany</p>  
               </Fade>
 
             </div>

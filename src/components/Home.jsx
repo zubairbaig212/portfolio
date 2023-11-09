@@ -18,7 +18,7 @@ const Home = () => {
         <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>
 
           <ReactTyped loop
-            strings={['I am a Frontend Developer']}
+            strings={['I am a Senior Frontend Developer']}
             typeSpeed={40}
             backSpeed={100}
           />
@@ -26,7 +26,7 @@ const Home = () => {
         <h2 className='text-2xl sm:text-4xl font-bold text-[#8892b0]'>
 
           <ReactTyped loop
-            strings={['React | Angular | Next js | Javascript | Typescript']}
+            strings={['React | Angular | Vue js | Javascript | Typescript']}
             typeSpeed={40}
             backSpeed={100}
           />
@@ -34,7 +34,7 @@ const Home = () => {
         </Fade>
        <Fade right>
        <p className='text-[#8892b0] py-4 max-w-[700px]'>
-          Experienced Frontend Engineer offering 4 years of experience providing high-impact web solutions for diverse industry organizations.Skilled in designing,
+          Experienced Senior Frontend Engineer offering 5 years of experience providing high-impact web solutions for diverse industry organizations.Skilled in designing,
           developing and testing multiple web based applications
         </p>
        </Fade>

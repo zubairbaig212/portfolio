@@ -10,7 +10,7 @@ const Contact = () => {
             <p className='text-4xl font-bold inline border-b-4 border-pink-600'>
               Contact
             </p>
-          </div>
+          </div> 
           <div></div>
         </div>
         <div className='max-w-[1000px] w-full grid sm:grid-cols-2 px-4'>
@@ -26,7 +26,7 @@ const Contact = () => {
           <div className="max-w-sm mt-2 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
             <div className="flex flex-col items-center pb-10 px-4 pt-4">
               <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">Call me at </h5>
-              <span className="text-sm text-gray-700 dark:text-gray-700">+92 (313) 6634677</span>
+              <span className="text-sm text-gray-700 dark:text-gray-700">+49 (174) 2808779</span>
               <span className='text-pink-600 pt-2'>Send Message</span>
             </div>
           </div>

@@ -26,7 +26,7 @@ const Navbar = () => {
         <Fade top>
         <div className="flex px-2">
           <FaUser className="mt-1 mr-3" />
-          <span>+92 313 6634677</span>
+          <span>+49 174 2808779</span>
         </div>
         <div className="flex">
           <HiMail className="mt-1 mr-3" />
